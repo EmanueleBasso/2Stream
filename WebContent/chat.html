@@ -1,0 +1,17 @@
+<div id="MessageContent">
+	<div id="textBox">
+	</div>
+	<footer id="footerMessage">
+		<input id="fileUploadChat" type="file" accept="image/*" onchange="sendImage($(this));"/>
+		<label class="labelFile" for="fileUploadChat">
+			<img id="uploadPictures" alt="uploadPictures" src="ico/photo.svg">
+		</label>
+		<div id="myModal" class="modal">
+			<span class="close" onclick="closeImage();">&times;</span>
+			<img class="modal-content" id="img01">
+		</div>	
+		<textarea name="messaggio" placeholder="Scrivi qui il messaggio" id="text"></textarea> 
+ 		<img alt="send" src="ico/send.svg" id="send" onclick="aggiungiInCoda();">
+	  	<input type="hidden" id="destinatario" value="">
+	</footer>
+</div>

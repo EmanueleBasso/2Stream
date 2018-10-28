@@ -1,0 +1,35 @@
+.imageContainer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 65%;
+        width: 50%;
+        padding-left: 25%;
+        position: absolute;
+        bottom: 5%;
+}
+
+.textContainer{
+		text-align: center;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        height: 35%;
+        width: 80%;
+        padding-left: 10%;
+        padding-right: 10%;
+}
+
+img{
+        height: 100%;
+        width: 100%;
+}
+
+.link{
+	outline: none;
+	color: black;
+}
+
+.link:HOVER{
+	color: #ffffcc;
+}

@@ -1,0 +1,22 @@
+img{
+        height: 100%;
+        width: 100%;
+}
+
+.errorImage{
+	z-index: 1;
+	position: absolute;
+	height: 60vh;
+	width: 100vw;
+	top: 5%;
+}
+
+.errorString{
+	z-index: 1;
+	position: absolute;
+	color: black;
+	text-align: center;
+	width: 100vw;
+	bottom: 10%;
+	font-size: 30px;
+}

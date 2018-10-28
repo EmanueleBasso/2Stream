@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 98 98">
+	<g>
+		<title>background</title>
+		<rect fill="none" y="-1" x="-1"/>
+			<g display="none" id="canvasGrid">
+		<rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%" id="svg_1"/>
+			</g>
+	</g>
+
+	<g>
+		<title>Layer 1</title>
+
+		<filter id="MyFilter1">
+			<feGaussianBlur stdDeviation="0.5" />
+		</filter>
+		<filter id="MyFilter2">
+			<feGaussianBlur stdDeviation="0.8" />
+		</filter>
+
+		<ellipse ry="48" rx="48" id="svg_2" cy="49" cx="49" stroke-width="1.5" stroke="#000" fill="grey" filter="url(#MyFilter1)"/>
+		<ellipse ry="48" rx="48" id="svg_2" cy="49" cx="49" stroke-width="1.5" stroke="#000" fill="#7e1412"/>
+		<path transform="rotate(-140, 60.3041, 55.8012)" id="svg_3" d="m46.52243,55.715271l13.781719,-35.658081l13.78162,35.658081l-6.890846,0l0,35.829941l-13.781635,0l0,-35.829941l-6.890858,0z" stroke="#000" fill="grey" filter="url(#MyFilter2)"/>
+		<path transform="rotate(-140, 60.3041, 55.8012)" id="svg_4" d="m46.52243,55.715271l13.781719,-35.658081l13.78162,35.658081l-6.890846,0l0,35.829941l-13.781635,0l0,-35.829941l-6.890858,0z" stroke="#000" fill="#ffffff"/>
+		<path transform="rotate(40, 35.9708, 35.8012)" id="svg_5" d="m22.189091,35.71526l13.781719,-35.65806l13.781639,35.65806l-6.890858,0l0,35.82996l-13.781641,0l0,-35.82996l-6.89086,0l0,0z" stroke="#000" fill="grey" filter="url(#MyFilter2)"/>
+		<path transform="rotate(40, 35.9708, 35.8012)" id="svg_6" d="m22.189091,35.71526l13.781719,-35.65806l13.781639,35.65806l-6.890858,0l0,35.82996l-13.781641,0l0,-35.82996l-6.89086,0l0,0z" stroke="#000" fill="#ffffff"/>
+	</g>
+</svg>

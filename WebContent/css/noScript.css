@@ -1,0 +1,45 @@
+#noJavascript{
+	position: fixed;
+	top:0;
+	left:0;
+	bottom:0;
+	right:0;
+    z-index:2;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+	background: rgba(0, 0, 0, 0.3);
+	}
+
+.error{
+	color: red;
+	text-align: center;
+}
+
+p{
+	color: black;
+    text-align: center;
+}
+
+@media screen and (max-width: 480px) {
+        #errorScreen{
+                background-color:  white;
+				height: 100vh;
+				width: 100vw;
+				overflow: hidden;
+        }
+}
+
+@media screen and (min-width: 480px) {
+        #errorScreen{
+        	background-color:white;
+		border: 1px solid lightgrey;
+        	width:50%;
+        	height:50%;
+        	margin:0 auto;
+        	border-radius: 10px;
+        }
+        #errorScreen>h1{
+        	padding-top:100px;
+        }
+}

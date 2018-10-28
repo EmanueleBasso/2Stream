@@ -1,0 +1,6 @@
+{ 
+  "driver" : "com.mysql.jdbc.Driver", 
+  "connessione" : "", 
+  "user" : "", 
+  "password" : "" 
+}

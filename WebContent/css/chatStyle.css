@@ -1,0 +1,202 @@
+#footerMessage{
+	width: 100%;
+	height: 10%;
+	min-width: 100px;
+	border-radius: 0 0 10px 0;
+	display: -webkit-flex; 
+    -webkit-flex-direction: row;
+    display: flex;
+    flex-direction: row;
+}
+
+#MessageContent{
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+
+#textBox{
+	background-image: url("../img/sfondo.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	
+	overflow: auto;
+	width: 100%;
+	height: 90%;
+}
+
+#send{
+	width: 40px;
+	height: 40px;
+	margin: 10px;
+	cursor: pointer;
+}
+
+#text{
+	resize: none;
+	width: 100%;
+	margin: 10px 0 10px 0;
+	outline: none;
+	overflow: auto;
+}
+
+#fileUploadChat{
+	display: none;
+}
+
+.labelFile{
+	cursor: pointer;
+	margin: 10px;
+}
+
+#uploadPictures{
+	width: 40px;
+	height: 40px;
+}
+
+#inviatoBox,#ricevutoBox{
+	position: relative;
+	display: flex;
+	width: 100%;
+	box-sizing: border-box;
+	margin: 30px 0px 30px 0px;
+}
+
+#inviatoBox{
+	flex-direction: row-reverse;
+}
+
+#ricevutoBox{
+	flex-direction: row;
+}
+
+.inviato::after,.ricevuto::before{
+	content: "";
+	position: absolute;
+	bottom: 10%;
+	width: 0;
+	height: 0;
+	border: 10px solid;
+}
+
+.inviato::after{
+	left: 100%;
+}
+.ricevuto::before{
+	right: 100%;
+}
+
+.ricevuto{
+	left: 30px;
+}
+
+.inviato{
+	right: 30px;
+}
+
+.inviato, .ricevuto{
+	text-align: right;
+	max-width: 60%;
+	border-radius: 5px;
+	position: relative;
+	padding: 10px 20px 10px 20px;
+	word-break: break-all;
+}
+
+.testo{
+	text-align: left;
+}
+
+.ora,.data{
+	display: inline-flex;
+	font-size: xx-small;
+	flex-direction: row-reverse;
+}
+
+.data{
+	visibility: hidden;
+	opacity: 0;	
+}
+
+.inviato:HOVER .data,.ricevuto:HOVER .data{
+	visibility: visible;
+	opacity: 1;
+}
+
+#multimediaImage{
+	max-height: 200px;
+	max-width: 200px;
+	object-fit: cover;
+	cursor: pointer;
+}
+
+.modal {
+    display: none; 
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+.modal-content {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 100%;
+    }
+}
+
+#rightInfo{
+	width: 100%;
+	display: flex;
+	flex-direction: row-reverse;
+}
+
+#userStatus{
+	padding: 10px;
+}
+
+

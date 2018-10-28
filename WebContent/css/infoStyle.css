@@ -1,0 +1,32 @@
+.info{
+	color: black;
+	height: 100%;
+	width: 100%;
+	position: relative;
+}
+
+h1{
+	width: 100%;
+	margin: 0px auto;
+	padding: 30px;
+	box-sizing: border-box;
+}
+
+p,h1,footer{
+	text-align: center;
+}
+
+.infoText{
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+footer{
+	background-color: white;
+	position: relative;
+	margin: 30px;
+}
+
+span{
+	color: black;
+}

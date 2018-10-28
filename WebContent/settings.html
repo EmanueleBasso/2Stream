@@ -1,0 +1,62 @@
+<div id="settingsBody">
+	<input id="sendpicProfile" type="file" accept="image/*" onchange="changePhotoPic($(this));"/>
+	<input id="senddisplayProfile" type="file" accept="image/*" onchange="changePhotoWallpaper($(this));"/>
+	<div id="profileImage">
+		<div id="picProfile">
+			<label for="sendpicProfile">
+				<img id="immagineUtente" class="image"/>
+				<div class="etichetta">
+					<div class="text">Cambia immagine</div>
+				</div>
+			</label>
+		</div>
+		<div id="displayProfile">
+			<label for="senddisplayProfile">
+				<img id="sfondoUtente" class="image"/>
+				<div class="etichetta">
+					<div class="text">Cambia sfondo</div>
+				</div>
+			</label>
+		</div>
+	</div>
+	<div id="profileText">
+		<div>
+			<div class="tableRow">
+				<p>Password:</p> <input id="password" type="password" placeholder="*************">
+			</div>
+			<div class="tableRow">
+				<p>Font:</p> 
+			<select name="font" id="font">
+					<option value="" selected="selected">Cinzel</option>
+					<option value="">Helvetica</option>
+					<option value="">IndieFlower</option>
+					<option value="">Lato</option>
+					<option value="">Oswald</option>
+					<option value="">Verdana</option>
+				</select>
+			</div>
+			<div class="tableRow">
+				<p>Stato:</p> <input id="status" type="text">
+			</div>
+			<div class="tableRow">
+				<p>Privacy Immagine</p>
+				<label for="checkPhoto" id="privacyPhoto" class="switch">
+					<input id="checkPhoto" type="checkbox">
+					<span class="slider round"></span>
+				</label>
+			</div>
+			<div class="tableRow">
+				<p>Privacy Accesso</p>
+				<label for="checkAccess" id="privacyAccount" class="switch">
+					<input id="checkAccess" type="checkbox">
+					<span class="slider round"></span>
+				</label>
+			</div>
+			<div class="tableRow">
+				<p>Colore Tema:</p> <input id="colore" type="color">
+			</div>
+		</div>
+		<input type="button" onclick="changePreference()" value="Salva"/>
+	</div>
+	<script>setPreference();</script>
+</div>

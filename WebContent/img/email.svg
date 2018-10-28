@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 58 58" style="enable-background:new 0 0 58 58;" xml:space="preserve">
+<g>
+	<title>background</title>
+	<rect id="canvas_background" y="-1" x="-1"/>
+</g>
+
+<g>
+	<title>Layer 1</title>
+	<g>
+		<polygon fill="#460B09" points="52,20.413 52,29.308 29,41.99 6,29.308 6,20.413 0,25.999 0,58 58,58 58,25.999"/>
+	</g>
+	<path fill="#7E1412" d="m0.091,26.049999l57.511001,31.711002c-0.033001,0.127998 -0.028999,0.111 -0.062,0.238998l-57.411001,0c-0.071,0 -0.129,-0.057999 -0.129,-0.129002l0,-31.767c0,-0.046999 0.05,-0.075998 0.091,-0.053999z"/>
+	<path fill="#64100E" d="m57.909,26.049999l-28.909,15.940002l28.601997,15.771c-0.032997,0.126999 -0.028999,0.112 -0.062,0.239002l0.331001,0c0.071003,-0.000004 0.129002,-0.058002 0.129002,-0.129005l0,-31.766998c0,-0.047001 -0.049999,-0.076 -0.091,-0.054001z"/>
+	<path fill="#7E1412" d="m0.091,26.049999l57.511001,31.711002c-0.033001,0.127998 -0.028999,0.111 -0.062,0.238998l-57.411001,0c-0.071,0 -0.129,-0.057999 -0.129,-0.129002l0,-31.767c0,-0.046999 0.05,-0.075998 0.091,-0.053999z"/>
+	<g>
+		<polygon fill="#F2ECBF" points="29,41.99 52,29.308 52,0 6,0 6,29.308"/>
+	</g>
+</g>
+
+<g transform="matrix(0.197279, 0, 0, 0.197279, 0, 0)" id="svg_41">
+	<title>background</title>
+	<rect x="-1" y="-1" fill="none"/>
+	<g transform="translate(86.1605, 53.8503) translate(0, 97.9999)" display="none">
+		<rect width="100%" height="100%" x="0" y="0" stroke-width="0" fill="url(#gridpattern)"/>
+	</g>
+</g>
+
+<g transform="matrix(0.310354, 0, 0, 0.325773, -10.572, -5.72007)">
+	<title>Layer 1</title>
+
+	<filter id="MyFilter1">
+		<feGaussianBlur stdDeviation="0.5" />
+	</filter>
+	<filter id="MyFilter2">
+		<feGaussianBlur stdDeviation="0.8" />
+	</filter>
+
+	<ellipse fill="#7e1412" stroke="#000" stroke-width="1.5" cx="126.423664" cy="75.885392" id="svg_36" rx="48" ry="48" filter="url(#MyFilter2)"/>
+	<ellipse fill="#7e1412" stroke="#000" stroke-width="1.5" cx="126.423664" cy="75.885392" id="svg_36" rx="48" ry="48"/>
+	<path fill="#ffffff" stroke="#000" stroke-opacity="null" d="m123.946083,82.600662l13.781715,-35.658081l13.781631,35.658081l-6.890854,0l0,35.829941l-13.781631,0l0,-35.829941l-6.890862,0z" id="svg_34" transform="rotate(-140, 137.728, 82.6866)" filter="url(#MyFilter1)"/>
+	<path fill="#ffffff" stroke="#000" stroke-opacity="null" d="m123.946083,82.600662l13.781715,-35.658081l13.781631,35.658081l-6.890854,0l0,35.829941l-13.781631,0l0,-35.829941l-6.890862,0z" id="svg_34" transform="rotate(-140, 137.728, 82.6866)"/>
+	<path fill="#ffffff" stroke="#000" stroke-opacity="null" d="m99.612762,62.600643l13.781715,-35.658045l13.781631,35.658045l-6.890854,0l0,35.82996l-13.781639,0l0,-35.82996l-6.890854,0l0,0z" id="svg_33" transform="rotate(40, 113.394, 62.6866)" filter="url(#MyFilter1)"/>
+	<path fill="#ffffff" stroke="#000" stroke-opacity="null" d="m99.612762,62.600643l13.781715,-35.658045l13.781631,35.658045l-6.890854,0l0,35.82996l-13.781639,0l0,-35.82996l-6.890854,0l0,0z" id="svg_33" transform="rotate(40, 113.394, 62.6866)"/>
+</g>
+</svg>
